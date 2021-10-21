@@ -1,0 +1,19 @@
+.text{
+    margin-left: 350px;
+    margin-right: 250px;
+}
+.airplane{
+    display: flex; 
+    width: 300px;
+    height: auto;
+}
+.three-items{
+    display: flex;
+    align-items: space-between;
+}
+.paragraph{
+    display: flex;
+    flex-flow: row-reverse;
+    flex-flow: column;
+    justify-content: flex-start;
+}
