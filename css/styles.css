@@ -1,19 +1,20 @@
+.head{
+    display: flow-root;
+    text-align: center;
+    font-size: larger;
+}
 .text{
+    font-size: larger;
     margin-left: 350px;
     margin-right: 250px;
 }
 .airplane{
-    display: flex; 
-    width: 300px;
-    height: auto;
+    width: 40%;
+    height: 61%;
+    float: left;
 }
 .three-items{
-    display: flex;
-    align-items: space-between;
-}
-.paragraph{
-    display: flex;
-    flex-flow: row-reverse;
-    flex-flow: column;
-    justify-content: flex-start;
+    height: 330px;
+}.second-paragraph{
+    padding-top: 44px;
 }
