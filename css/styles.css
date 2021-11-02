@@ -3,18 +3,72 @@
     text-align: center;
     font-size: larger;
 }
-.text{
+.container{
     font-size: larger;
+    max-width: 1230px;
     margin-left: 350px;
     margin-right: 250px;
 }
 .airplane{
-    width: 40%;
-    height: 61%;
+    width: max-content ;
+    height:max-content;
     float: left;
 }
 .three-items{
     height: 330px;
 }.second-paragraph{
     padding-top: 44px;
+}
+.bold-text{
+    font-weight: bolder;
+}
+.underlined-text{
+    text-decoration: underline;
+}
+.italic-text{
+    font-style: italic;
+}
+.advertising{
+    display: flex;
+    flex-wrap: wrap;
+}
+.const-size{
+    width: 400px;
+    height: 300px;
+}
+.size-containers{
+    width: 400;
+    height: 400;
+}
+.first{
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+}
+.second{
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+}
+.third{
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+}
+.fourth{
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+}
+.first-line{
+    display: flex;
+    justify-content: center
+}
+.second-line{
+    display: flex;
+    justify-content: center;
 }
