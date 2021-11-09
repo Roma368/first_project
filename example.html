@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <div>
+            <div class="flex-container" >
+                <div class="block" style="flex-basis: 250px;">
+                    <p>1</p>
+                </div>
+                <div class="block" style="flex-basis: 50px;">
+                    <p>2</p>
+                </div>
+                <div class="block">
+                    <p>3</p>
+                </div>
+                <div class="block">
+                    <p>4</p>
+                </div>
+                <div class="block" style="align-self: flex-end;">
+                    <p>5</p>
+                </div>
+                <div class="block"><p>6</p></div>
+            </div>
+            <div class="flex-container row-reverse" style="flex-direction: row-reverse;">
+                <div class="block" style="order:6; align-self: flex-end;">
+                    <p>1</p>
+                </div>
+                <div class="block" style="order:5;">
+                    <p>2</p>
+                </div>
+                <div class="block" style="order:4; align-self: flex-end;">
+                    <p>3</p>
+                </div>
+                <div class="block" style="order:3;">
+                    <p>4</p>
+                </div>
+                <div class="block" style="order:2; align-self: flex-end;">
+                    <p>5</p>
+                </div>
+                <div class="block" style="order:1; ">
+                    <p>6</p>
+                </div>
+            </div>
+        </div>
+            <!--<div style="height: 500px; background-color: red; position: relative;">
+                    <div class="" style="background-color: black; width: 50px; height: 50px; position: relative; "></div>
+                        <div class="position" style="background-color: yellow; width: 100px; height: 100px; position: absolute;"></div>
+                </div> -->
+            
+        </div>
+    </body>
+    <style>
+
+        /*.position {
+            top: 10px;
+            left: 60px;
+        }*/
+        p{
+            display: flex;
+            position: absolute;
+            flex-direction: column;
+            background-color: #252525;
+            border-radius: 30px;
+            width: 25px;
+            text-align: center;
+            margin: 25px 25px;
+        }
+        .block {
+            display: inline;
+            background-color: #383737;
+            color: #fff;
+            width: 100px;
+            height: 100px;
+            border: 2px  rgb(141, 140, 140);
+            border-radius: 10px;
+            margin: 20px auto;
+        }
+        .flex-container {
+            display: flex;
+            width: 1024px;
+            height:500px;
+            margin: 0 auto;
+            background-color: rgb(194, 212, 112);
+            justify-content: space-around;
+        }
+        .row-reverse{
+            row-gap: row-reverse;
+        }
+    </style>
+</html>
