@@ -1,18 +1,17 @@
 .head{
     display: flow-root;
     text-align: center;
-    font-size: larger;
+    font-size: 18px;
 }
 .container{
-    font-size: larger;
+    font-size: 18px;
     max-width: 1230px;
-    margin-left: 350px;
-    margin-right: 250px;
+    margin: 0 150px 0 200px;
 }
 .airplane{
-    width: max-content ;
-    height:max-content;
+    width: auto;
     float: left;
+    overflow: hidden;
 }
 .three-items{
     height: 330px;
@@ -41,28 +40,16 @@
     height: 400;
 }
 .first{
-    margin-top: 5px;
-    margin-left: 5px;
-    margin-bottom: 5px;
-    margin-right: 5px;
+    margin: 5px;
 }
 .second{
-    margin-top: 5px;
-    margin-left: 5px;
-    margin-bottom: 5px;
-    margin-right: 5px;
+    margin: 5px;
 }
 .third{
-    margin-top: 5px;
-    margin-left: 5px;
-    margin-bottom: 5px;
-    margin-right: 5px;
+    margin: 5px;
 }
 .fourth{
-    margin-top: 5px;
-    margin-left: 5px;
-    margin-bottom: 5px;
-    margin-right: 5px;
+    margin: 5px;
 }
 .first-line{
     display: flex;
